@@ -41,17 +41,3 @@ while ($ProgramNotHalted) {
 }
 
 $Integers[0]
-
-
-<#
-[System.Collections.ArrayList]$steps = @()
-foreach ($Integer in $Integers) {
-    $steps += $Integer
-}
-
-$steps[1] = 12
-$steps[2] = 2
-
-
-
-#>
